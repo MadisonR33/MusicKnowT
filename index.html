@@ -7,19 +7,74 @@
 </head>
 <body>
 
-    <h1>Welcome to MusicKnowT</h1>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">About</a></li>
+            <li><a href="#career">Read</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <img src="crowd.png" alt="crowd at a music concert">
-    <img src="laptop.png" alt="laptop and notepad on desk">
+    <!-- Header -->
+    <header>
+        <h1 id="home">Welcome to MusicKnowT</h1>
+    </header>
 
-    <p>we offer many services tailored to you! learn about your favorite artist or get started on your very own career!</p>
+    <!-- Main Content Section -->
+    <section id="services">
+        <img src="crowd.png" alt="Crowd at a music concert" width="300">
+        <img src="laptop.png" alt="Laptop and notepad on desk" width="300">
 
-    <p>Weather you are looking to begin a new journy and dive into a new career or want to simply see what your favorites have said and been through we have it all.</p>
+        <p>We offer many services tailored to you! Learn about your favorite artist or get started on your very own career!</p>
 
- <p>
-        Visit <a href="https://www.careersinmusic.com/music-careers-list/" target="_blank">Music Careers</a> for those invested in starting their new careers.<br>
-        Also check out <a href="https://www.indeed.com/career-advice/finding-a-job/jobs-in-the-music-industry" target="_blank">Indeed</a> for more job opportunities.
-    </p>
+        <p>Whether you are looking to begin a new journey and dive into a new career or want to simply see what your favorites have said and been through—we have it all.</p>
+    </section>
+
+    <!-- Table -->
+    <section id="career">
+        <h2>Popular Music Career Paths</h2>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Lyric Writer</th>
+                <th>Writes lyrics for artist and or self</th>
+            </tr>
+            <tr>
+                <td>Music Producer</td>
+                <td>Oversees recording and production of music tracks</td>
+            </tr>
+            <tr>
+                <td>Audio Engineer</td>
+                <td>Works with sound equipment to create the best audio quality</td>
+            </tr>
+        </table>
+
+        <h3>Career Resources</h3>
+        <p>
+            Visit <a href="https://www.careersinmusic.com/music-careers-list/" target="_blank">Music Careers</a> for those invested in starting their new careers.<br>
+            Also check out <a href="https://www.indeed.com/career-advice/finding-a-job/jobs-in-the-music-industry" target="_blank">Indeed</a> for more job opportunities.
+        </p>
+
+        <!-- iFrame Example -->
+        <h3>Watch: Music Industry Explained</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hH7cV7AE_JU" 
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer with Contact Form -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:Madison</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:Madison@MusicKnowT.com</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
 
 </body>
 </html>
