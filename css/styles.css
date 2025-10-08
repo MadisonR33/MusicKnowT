@@ -212,6 +212,7 @@ footer input[type="submit"]:hover {
         width: 90%;
     }
 }
+<<<<<<< HEAD:css/styles.css
 /* ===== Responsive Design for Small Devices ===== */
 @media (max-width: 480px) {
 
@@ -254,3 +255,6 @@ footer input[type="submit"]:hover {
         margin-bottom: 1rem;
     }
 }
+=======
+
+>>>>>>> parent of 114e428 (Update styles.css):styles.css
